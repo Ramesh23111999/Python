@@ -4,4 +4,4 @@ if(year%100==0) and (year%400==0):#century year(ending 00)
 elif(year%100 !=0) and (year%4==0):#not century year
     print('{}<== this is leap year'.format(year))
 else:
-    print('{}<== this is not leap year')
+    print('{}<== this is not leap year'.format(year))
